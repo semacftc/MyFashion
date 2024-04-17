@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Oxygen:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.container{
+    background:url(tailoring-2575930_960_720.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width:100%;
+    height: 80px;
+    background: rgba(143, 54, 54, 0.281) ;
+}
+
+.navbar .MYFASHİON{
+    display:inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar .FASHİON a{
+    text-decoration:none;
+    font-size: 25px;
+    font-family: 'Herr Von Muellerhof';
+    color:#f3f3f3;
+    text-align:right;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 30px;
+}
+
+.navbar ul li a{
+    color:rgb(179, 134, 114);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Herr Von Muellerhof';
+    transition: .5s;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#b6b3d1;
+    border-radius: 2px;
+}
+
+.container .center{
+    position:absolute;
+    top: 25%;
+    left: 50%;transform: translate(-50%-50%);
+    font-family: 'Herr Von Muellerho';
+
+    
+
+}
+
+.center h1{
+    color: rgb(241, 239, 237);
+    font-size: 60px;
+    font-weight: bold;
+    width: 600px;
+    text-align:center;
+}
+
+.center h2{
+    color:rgb(232, 237, 238);
+    font-size:40px;
+    font-weight:bold;
+    width: 600pxpx;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin:35px 280px;
+}
+
+.buttons button{
+    height:50px;
+    width:100px;
+    font-size:15px;
+    font-weight: bold;
+    color: rgb(19, 10, 10);
+    background: rgb(117, 96, 96);
+    border: solid 1px grey;
+    cursor: pointer;
+    outline:none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover{
+    background:rgb(233, 225, 225);
+}
